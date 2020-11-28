@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testCases.CarLoanTest">
+        <methods>
+          <include name="carEmiCalculator"/>
+        </methods>
+      </class> <!-- testCases.CarLoanTest -->
+      <class name="testCases.LoanCalculatorTest">
+        <methods>
+          <include name="loanCalculator"/>
+        </methods>
+      </class> <!-- testCases.LoanCalculatorTest -->
+      <class name="testCases.Node1">
+        <methods>
+          <include name="f"/>
+          <include name="carEmiCalculator"/>
+          <include name="loanCalculator"/>
+          <include name="homeLoanEmiCalculator"/>
+        </methods>
+      </class> <!-- testCases.Node1 -->
+      <class name="testCases.HomeLoanEmiTest">
+        <methods>
+          <include name="homeLoanEmiCalculator"/>
+        </methods>
+      </class> <!-- testCases.HomeLoanEmiTest -->
+      <class name="testCases.Node2">
+        <methods>
+          <include name="homeLoanEmiCalculator"/>
+          <include name="f"/>
+          <include name="loanCalculator"/>
+          <include name="carEmiCalculator"/>
+        </methods>
+      </class> <!-- testCases.Node2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

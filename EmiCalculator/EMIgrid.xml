@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Test" parallel="tests">
+	<test name="Test Node1">
+		<classes>
+			<class name="testCases.Node1" />
+		</classes>
+	</test>
+	<test name="Test Node2">
+		<classes>
+			<class name="testCases.Node2" />
+		</classes>
+	</test>
+</suite>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+Microsoft Windows [Version 10.0.19041.572]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\Mayank Mangla>java -Dwebdriver.gecko.driver="C:\geckodriver.exe" -Dwebdriver.chrome.driver="C:\chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role webdriver -hub http://192.168.1.17:5555/grid/register -port 5566
+10:44:02.717 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+10:44:02.861 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5566
+2020-11-06 10:44:03.496:INFO::main: Logging initialized @1082ms to org.seleniumhq.jetty9.util.log.StdErrLog
+10:44:03.760 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+10:44:03.867 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5566
+10:44:03.867 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+10:44:04.082 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+10:44:04.846 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://192.168.1.17:5555/grid/register
+10:44:05.147 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
